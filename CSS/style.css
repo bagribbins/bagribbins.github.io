@@ -1,0 +1,52 @@
+/*PAGE STYLES*/
+
+
+
+body {
+    font-family: 'Castoro',
+        serif;
+    font-size: 1.5em;
+    background-color: #E5E7E9;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+#introduction {
+    margin-top: 25px;
+    font-size: .85em;
+}
+
+#resume-button {
+    display: block;
+    width: 400px;
+    margin: auto;
+    font-size: 2em;
+}
+
+#contact-info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+
+#contact-info li {
+    list-style: none;
+    text-align: center;
+}
+
+/*IMAGES */
+
+.landing-photo {
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    display: block;
+    width: 200px;
+    margin: auto;
+
+}
+
+/*MEDIA QUERIES*/
