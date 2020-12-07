@@ -1,3 +1,2 @@
-$("#resume-button").click(function () {
-    alert("This function is not yet enabled.")
-});
+const expand = document.getElementsByClassName('.collapse');
+const shrink = document.querySelector('.show');

@@ -5,8 +5,11 @@
 body {
     font-family: 'Castoro',
         serif;
-    font-size: 1.5em;
     background-color: #E5E7E9;
+}
+
+p {
+    font-size: 1em;
 }
 
 .navbar-brand {
@@ -14,8 +17,7 @@ body {
 }
 
 #introduction {
-    margin-top: 25px;
-    font-size: .85em;
+    margin-top: 50px;
 }
 
 #resume-button {
@@ -23,6 +25,7 @@ body {
     width: 400px;
     margin: auto;
     font-size: 2em;
+    margin-top: 50px;
 }
 
 #contact-info {
