@@ -43,12 +43,7 @@ p {
 /*IMAGES */
 
 .landing-photo {
-    border-style: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-width: thin;
     display: block;
-    width: 200px;
     margin: auto;
 
 }
