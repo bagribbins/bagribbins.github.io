@@ -1,6 +1,4 @@
-/*PAGE STYLES*/
-
-
+/********PAGE STYLES********/
 
 body {
     font-family: 'Castoro',
@@ -44,25 +42,20 @@ p {
     text-align: center;
 }
 
-/*IMAGES */
+
+/********IMAGES ********/
 
 .landing-photo {
     display: block;
     margin: auto;
+}
 
+.landing-photo-mobile {
+    width: 300px;
 }
 
 
-
-/*MEDIA QUERIES*/
-@media only screen and (min-width: 480px) {}
-
-@media only screen and (min-width: 768px),
-(max-width: 768px) {
-    .landing-photo-mobile {
-        width: 300px;
-    }
-}
+/********MEDIA QUERIES********/
 
 @media only screen and (min-width: 1030px) {
     .navbar-nav {
