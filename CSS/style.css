@@ -45,11 +45,14 @@ p {
 .landing-photo {
     border-style: solid;
     border-color: black;
-    border-radius: 20px;
+    border-radius: 5px;
+    border-width: thin;
     display: block;
     width: 200px;
     margin: auto;
 
 }
+
+
 
 /*MEDIA QUERIES*/
