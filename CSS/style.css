@@ -16,6 +16,10 @@ p {
     font-size: 2em;
 }
 
+.navbar-nav {
+    font-size: 1.5em;
+}
+
 #introduction {
     margin-top: 50px;
 }
@@ -51,3 +55,21 @@ p {
 
 
 /*MEDIA QUERIES*/
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 768px),
+(max-width: 768px) {
+    .landing-photo-mobile {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    .navbar-nav {
+        font-size: 2em;
+    }
+
+    .landing-photo-mobile {
+        width: 500px;
+    }
+}
