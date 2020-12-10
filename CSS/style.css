@@ -57,6 +57,12 @@ p {
 
 /********MEDIA QUERIES********/
 
+@media only screen and (min-width: 480px) {
+    .landing-photo-mobile {
+        width: 400px;
+    }
+}
+
 @media only screen and (min-width: 1030px) {
     .navbar-nav {
         font-size: 2em;
@@ -64,5 +70,9 @@ p {
 
     .landing-photo-mobile {
         width: 500px;
+    }
+
+    .personal-card {
+        height: 100%;
     }
 }
